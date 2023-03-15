@@ -1,0 +1,127 @@
+.contenedor {
+    width: 1000px;
+    margin: 15px auto;
+    overflow: hidden;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #4a465b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
+  header {
+    background: #fff;
+  }
+  
+  header nav {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header nav ul li {
+    float: left;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 15px 20px;
+  }
+  
+  header nav ul li a:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  .main {
+    width: 70%;
+    background: white;
+    float: left;
+  }
+  
+  .main .imagen {
+    width: 100%;
+  }
+  
+  .main .imagen img {
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  .main .publicacion {
+    padding: 45px;
+  }
+  
+  .main .publicacion article h2 {
+    margin-bottom: 28px;
+    color: #5D5D5D;
+  }
+  
+  .main .publicacion article p {
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+  
+  aside {
+    width: 300px;
+    background: #161f26;
+    padding: 28px;
+    color: #fff;
+    float: left;
+  }
+  
+  aside .widget {
+    margin-bottom: 28px;
+  }
+  
+  aside .widget .titulo {
+    color: rgb(255, 119, 8);
+    border-bottom: 2px solid rgb(255, 199, 8);
+    margin-bottom: 18px;
+  }
+  
+  aside .widget ul {
+    list-style: none;
+  }
+  
+  aside .widget ul li {
+    border-bottom: 2px solid rgb(255, 255, 255, 255);
+    padding: 12px 0;
+  }
+  
+  aside .widget ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  aside .widget ul li a:hover {
+    color: rgb(91, 98, 99);
+  }
+  
+  aside .widget p {
+    line-height: 25px;
+  }
+  
+  footer {
+    width: 70%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media(max-width:750px){
+    body{
+        background: #000;
+    }
+  }

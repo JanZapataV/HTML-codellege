@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    transition: 4s;
+    margin-top: 10px;
+}
+
+.div1{
+    transition-timing-function: linear;
+}
+.div2{
+    transition-timing-function: ease;
+}
+.div3{
+    transition-timing-function: ease-in;
+    background: rgb(193, 80, 207);
+}
+.div4{
+    background: red;
+    transition: width2s, heigth 2s, transform 4s;
+}
+
+div:hover{
+    width: 300px;
+    height: 300px;
+    transform: translate(25%-50%);
+}
